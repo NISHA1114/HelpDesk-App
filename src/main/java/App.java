@@ -8,7 +8,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        HttpServer server = HttpServer.create(new InetSocketAddress(8081), 0);
+        HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
 
         // HOME PAGE
         server.createContext("/", exchange -> {
@@ -130,6 +130,6 @@ public class App {
         });
 
         server.start();
-        System.out.println("V1 running on port 8081...");
+        System.out.println("V1 running on port 8080...");
     }
 }
