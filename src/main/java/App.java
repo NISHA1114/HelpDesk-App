@@ -144,7 +144,7 @@ public class App {
         });
 
         server.start();
-        System.out.println("V2 running on port 8082...");
+        System.out.println("V2 running on port 8080...");
     }
 }
     
