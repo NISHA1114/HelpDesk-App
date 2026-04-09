@@ -161,6 +161,6 @@ public class App {
         });
 
         server.start();
-        System.out.println("V3 running on port 8083...");
+        System.out.println("V3 running on port 8080...");
     }
 }
