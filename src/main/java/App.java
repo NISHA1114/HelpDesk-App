@@ -130,6 +130,6 @@ public class App {
         });
 
         server.start();
-        System.out.println("V1 is running on port 8080...");
+        System.out.println("V1  running on port 8080...");
     }
 }
