@@ -15,6 +15,7 @@ spec:
       containers:
       - name: helpdesk
         image: nisha1114/helpdesk-app:v2
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
